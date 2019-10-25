@@ -2,26 +2,28 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    color: #183440ff;
-}
-
 h2{
     color: #183440ff;
     text-align: center;
 }
 
-body{
-    background-image: ../img/background-header.jpg;
-}
 
 /* Style Header */
+.header{
+    background-image: url('https://d2ile4x3f22snf.cloudfront.net/wp-content/uploads/sites/26/2016/05/14042244/Lombok-11-1200x500.jpg');
+    background-size: cover;
+}
+
 .header h1{
-    color: #183440ff;
+    color: white;
+    font-size: 50px;
+    padding: block;
+    font-family: Verdana, Geneva, sans-serif;
     text-align: center;
 }
 
 .header p{
+    color: white;
     text-align: center;
     font-size: 12px;
 }
