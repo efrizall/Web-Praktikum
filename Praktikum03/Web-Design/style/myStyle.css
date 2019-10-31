@@ -1,14 +1,83 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    background-color: lightblue;
+    font: 16px/28px arial, sans-serif;
 }
 
-h2{
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+.header {
+    padding: 20px;
+}
+
+.judul h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.judul p {
+    font-size: 12px;
+    margin-top: -15px; 
+}
+
+.navigasi {
+    padding: 20px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin-top: -5px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3c6070ff;
+}
+
+.nav ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #183440ff;
+    color: white;
+}
+
+.hero {
+    height: 280px;
+    background-image: url(../img/bg.png);
+    background-position: -60px -270px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    color: #3c6070ff;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+hr {
+    width: 90px;
+}
+
+/*h2{
     color: #183440ff;
     text-align: center;
 }
 
 
-/* Style Header */
 .header{
     background-image: url('https://d2ile4x3f22snf.cloudfront.net/wp-content/uploads/sites/26/2016/05/14042244/Lombok-11-1200x500.jpg');
     background-size: cover;
@@ -27,9 +96,7 @@ h2{
     text-align: center;
     font-size: 12px;
 }
-/* Style Header */
 
-/* Style Navigation */
 ul{
     list-style-type: none;
     margin: 0;
@@ -53,9 +120,7 @@ li a{
 li a:hover{
     background-color: #183440ff;
 }
-/* Style Navigation */
 
-/* Style About */
 .about p{
     padding: 0px 130px;
     text-align: justify;
@@ -73,5 +138,5 @@ li a:hover{
 
 .about p b{
     color: #183440ff;
-}
+}*/
 
