@@ -24,7 +24,7 @@ body {
 }
 
 .navigasi {
-    padding: 20px;
+    padding: 0px;
 }
 
 .nav ul {
@@ -70,6 +70,10 @@ li a:hover {
 
 hr {
     width: 90px;
+}
+
+.content p {
+    text-align: justify;
 }
 
 /*h2{
