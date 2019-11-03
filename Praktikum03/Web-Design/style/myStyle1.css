@@ -17,6 +17,7 @@ body {
 	margin: auto;
 }
 
+/*Header*/
 .header {
 	height: 600px;
 	background-image: url(../img/aa.png);
@@ -62,7 +63,12 @@ a {
 .header span {
   color: yellow;
 }
+/*Header*/
 
+
+
+
+/*Content*/
 .content {
 	height: 400px;
 	padding: 50px;
@@ -94,6 +100,8 @@ a {
 }
 
 .gallery {
-	height: 300px;
+	height: 500px;
 	background-color: lightskyblue;
 }
+
+
