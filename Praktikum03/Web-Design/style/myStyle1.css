@@ -100,8 +100,39 @@ a {
 }
 
 .gallery {
-	height: 500px;
+	height: 610px;
 	background-color: lightskyblue;
+	padding: 20px;
 }
 
+.galleryfoto {
+	width: 650px;
+}
 
+.gal1 {
+	background-image: url(../img/gal1.jpg);
+	width: 300px;
+	height: 280px;
+	display: inline-block;
+}
+
+.gal2 {
+	background-image: url(../img/gal2.jpg);
+	width: 300px;
+	height: 280px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.gal3 {
+	background-image: url(../img/gal2.jpg);
+	width: 300px;
+	height: 280px;
+	display: inline-block;
+}
+
+.gal4 {
+	background-image: url(../img/gal2.jpg);
+	width: 300px;
+	height: 280px;
+}
