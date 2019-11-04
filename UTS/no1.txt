@@ -1,0 +1,3 @@
+HTML : Berfungsi sebagai kerangka pada sebuah website yang pertama kali kita buat atau sebagai pembuat struktur website
+CSS : Berfungsi sebagai pengatur gaya/style pada bagian-bagian HTML
+Javascript : Berfungsi untuk dapat membuat halaman website menjadi interaktif
