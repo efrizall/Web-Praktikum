@@ -1,0 +1,4 @@
+Selector pada CSS :
+1. Selector class
+2. Selector id
+3. Selector tag
