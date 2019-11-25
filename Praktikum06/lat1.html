@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Jika kamu mengklik saya, saya akan menghilang</p>
+        <p>Klik saya juga</p>
+        <p>Klik saya juga</p>
+        <h1 id="judul1">Tolong klik saya juga</h1>
+        <h2 class="judul2">Tolong klik saya juga</h2>
+        <h3 class="judul2">Tolong klik saya juga</h3>
+        <span id="p1">Jika kamu mengklik saya dua kali, saya akan menghilang</span>
+        <span id="p2">saya akan mengeluarkan alert</span>
+
+
+        <script
+ 			src="http://code.jquery.com/jquery-3.4.1.min.js"
+ 	 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  			crossorigin="anonymous">
+  		</script>
+
+  		<script>
+  			$(function(){
+  				$("p").click(function(){
+  					$(this).hide();
+  				});
+
+  				$("#judul1").click(function(){
+  					$(this).hide();
+  				});
+
+  				$(".judul2").click(function(){
+  					$(this).hide();
+  				});
+
+  				$("#p1").dblclick(function(){
+  					$(this).hide();
+  				});
+
+  				$("#p2").mouseenter(function(){
+  					alert("You entered p2");
+  				});
+  			});
+  		</script>
+
+    </body>
+</html>
