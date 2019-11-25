@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery</title>
+
+	<script
+  		src="http://code.jquery.com/jquery-3.4.1.min.js"
+  		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  		crossorigin="anonymous">
+  	</script>
+  	<script>
+  		$(function(){
+  			$("input").focus(function(){
+  				$(this).css("background-color","lightskyblue");
+  			});
+
+  			$("input").blur(function(){
+  				$(this).css("background-color","black");
+  			});
+
+  			$("#hide").click(function(){
+  				$("span").hide();
+  			});
+
+  			$("#show").click(function(){
+  				$("span").show();
+  			});
+
+  			$("#toggle").click(function(){
+  				$("span").toggle();
+  			});
+  		});
+  	</script>
+
+</head>
+<body>
+
+	Nama : <input type="text" name="fullname"><br>
+	Email : <input type="text" name="email"><br>
+	<span>Hide --> menyembunyikan ---- Show --> memunculkan</span><br>
+	<button id="hide">Hide</button>
+	<button id="show">Show</button>
+	<button id="toggle">Toggle</button>
+</body>
+</html>
