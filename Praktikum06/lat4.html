@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JQuery</title>
+	<script
+  		src="http://code.jquery.com/jquery-3.4.1.min.js"
+  		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  		crossorigin="anonymous">
+  	</script>
+  	<script>
+  		$(function(){
+  			$("#flip").click(function(){
+  				$("#panel").slideToggle("slow");
+  			});
+
+
+  		});
+  	</script>
+
+  	<style>
+  		#panel, #flip{
+  			padding: 5px;
+  			text-align: center;
+  			background-color: #e5eecc;
+  			border-color: solid 1px #c3c3c3;
+  		}
+
+  		#panel{
+  			padding: 50px;
+  			display: none;
+  		}
+  	</style>
+
+</head>
+<body>
+
+	<div id="flip">Click to slide the panel down or up</div>
+	<div id="panel">Hello World!</div>
+
+</body>
+</html>
